@@ -436,6 +436,7 @@ services:
         - "${MYSQL_PORT}:3306"
       networks:
         - backend
+      user: "1000:50"
 
 ### Percona ################################################
     percona:
